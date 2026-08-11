@@ -1,1 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Photo Gallery</title>
+    <link rel="stylesheet" href="gallery.css/style.css">
+    <script src="gallery.js/script.js" defer></script> 
+</head>
+<body onload="addTabFocus()">
 
+    <h1>Interactive Photo Gallery</h1>
+
+    <div id="image">
+        Hover over an image below to display here.
+    </div>
+
+    <div class="gallery">
+        <img class="preview" 
+             alt="Sunset Over Ocean Horizon with Wispy Clouds" 
+             src="images2/bluesky1.jpg" 
+             onmouseover="upDate(this)" 
+             onmouseleave="unDo()"
+             onfocus="upDate(this)"
+             onblur="unDo()">
+
+        <img class="preview" 
+             alt="Cloud Reflections on Wet Beach Sand" 
+             src="images2/bluesky2.jpg" 
+             onmouseover="upDate(this)" 
+             onmouseleave="unDo()"
+             onfocus="upDate(this)"
+             onblur="unDo()">
+
+        <img class="preview" 
+             alt="Bright Sun Above Thick Layer of White Clouds" 
+             src="images2/bluesky3.jpg" 
+             onmouseover="upDate(this)" 
+             onmouseleave="unDo()"
+             onfocus="upDate(this)"
+             onblur="unDo()">
+
+        <img class="preview" 
+             alt="Clouds Reflecting in Mirror-Like Salt Flats" 
+             src="images2/bluesky4.jpg" 
+             onmouseover="upDate(this)" 
+             onmouseleave="unDo()"
+             onfocus="upDate(this)"
+             onblur="unDo()">
+
+        <img class="preview" 
+             alt="Towering Fluffy Cumulus Clouds from Above" 
+             src="images2/bluesky5.jpg" 
+             onmouseover="upDate(this)" 
+             onmouseleave="unDo()"
+             onfocus="upDate(this)"
+             onblur="unDo()">
+
+        <img class="preview" 
+             alt="Massive Storm Cloud Formation Over Dark Ocean" 
+             src="images2/bluesky6.jpg" 
+             onmouseover="upDate(this)" 
+             onmouseleave="unDo()"
+             onfocus="upDate(this)"
+             onblur="unDo()">
+    </div>
+
+</body>
+</html>
